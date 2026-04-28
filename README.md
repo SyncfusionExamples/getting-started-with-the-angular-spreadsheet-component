@@ -2,12 +2,6 @@
 
 A quick-start project that helps you create and configure the Syncfusion Angular Spreadsheet component. This project allows you to clone the repository and run the application to get started quickly.
 
-## Documentation
-
-- Getting Started Guide: https://help.syncfusion.com/document-processing/excel/spreadsheet/angular/getting-started
-- Online Demo: https://document.syncfusion.com/demos/spreadsheet-editor/angular/#/tailwind3/spreadsheet/default
-- Tutorial Videos: https://www.syncfusion.com/tutorial-videos/angular/spreadsheet
-
 ## Project Prerequisites
 
 - Node.js (v14.15.0 or higher)
@@ -27,3 +21,9 @@ A quick-start project that helps you create and configure the Syncfusion Angular
    ng serve
    ```
 5. Open http://localhost:4200 in your browser.
+
+## Documentation
+
+- Getting Started Guide: https://help.syncfusion.com/document-processing/excel/spreadsheet/angular/getting-started
+- Online Demo: https://document.syncfusion.com/demos/spreadsheet-editor/angular/#/tailwind3/spreadsheet/default
+- Tutorial Videos: https://www.syncfusion.com/tutorial-videos/angular/spreadsheet
