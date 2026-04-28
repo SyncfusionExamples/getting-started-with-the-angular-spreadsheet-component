@@ -17,7 +17,7 @@
     "@angular/forms": "^21.2.0",
     "@angular/platform-browser": "^21.2.0",
     "@angular/router": "^21.2.0",
-    "@syncfusion/ej2-angular-spreadsheet": "^33.2.3",
+    "@syncfusion/ej2-angular-spreadsheet": "*",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },
