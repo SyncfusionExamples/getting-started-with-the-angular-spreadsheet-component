@@ -1,6 +1,6 @@
 # Getting Started with the Angular Spreadsheet Component
 
-A quick-start project that helps you create and configure the Syncfusion Angular Spreadsheet component. This project allows you to clone the repository and run the application to get started quickly.
+A quick-start project that helps you create and configure the [Angular Spreadsheet](https://www.syncfusion.com/spreadsheet-editor-sdk/angular-spreadsheet-editor) component. This project allows you to clone the repository and run the application to get started quickly.
 
 ## Project Prerequisites
 
