@@ -48,6 +48,11 @@ export class App implements AfterViewInit {
 
         this.spreadsheetRef =
             this.container.createComponent(SpreadsheetComponent);
+
+        // Subscribe to openComplete event
+        this.spreadsheetRef.instance.openComplete.subscribe(() => {
+            console.log('Spreadsheet open complete - data loaded');
+        });
     }
 
     public openWorkbook(): void {
