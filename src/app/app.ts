@@ -1,6 +1,7 @@
 import { Component, ViewContainerRef, ComponentRef, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SpreadsheetAllModule, SpreadsheetComponent } from '@syncfusion/ej2-angular-spreadsheet';
+import spreadsheetData from '../spreadsheetData.json';
 
 @Component({
     imports: [CommonModule, SpreadsheetAllModule],
@@ -41,9 +42,7 @@ export class App {
         this.componentRef = this.viewContainer.createComponent(SpreadsheetComponent);
         const instance = this.componentRef.instance;
         
-        instance.openFromJson({
-            file: '/spreadsheetData.json'
-        });
+        instance.openFromJson(spreadsheetData);
     }
 
     destroySpreadsheet() {
