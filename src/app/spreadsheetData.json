@@ -1,0 +1,954 @@
+{
+    "jsonObject": {
+        "Workbook": {
+            "enableRtl": false,
+            "locale": "en-US",
+            "openUrl": "https://services.syncfusion.com/angular/production/api/spreadsheet/open",
+            "saveUrl": "https://services.syncfusion.com/angular/production/api/spreadsheet/save",
+            "enablePersistence": false,
+            "cellStyle": {},
+            "showRibbon": true,
+            "showFormulaBar": true,
+            "showSheetTabs": true,
+            "allowEditing": true,
+            "allowOpen": true,
+            "allowSave": true,
+            "enableContextMenu": true,
+            "allowAutoFill": true,
+            "selectionSettings": {
+                "mode": "Multiple"
+            },
+            "enableKeyboardNavigation": true,
+            "allowNumberFormatting": true,
+            "enableKeyboardShortcut": true,
+            "enableClipboard": true,
+            "allowCellFormatting": true,
+            "allowSorting": true,
+            "allowResizing": true,
+            "allowHyperlink": true,
+            "enableNotes": true,
+            "allowUndoRedo": true,
+            "allowFiltering": true,
+            "allowWrap": true,
+            "allowInsert": true,
+            "allowDelete": true,
+            "allowDataValidation": true,
+            "allowFindAndReplace": true,
+            "allowMerge": true,
+            "allowConditionalFormat": true,
+            "allowImage": true,
+            "allowChart": true,
+            "enableAIAssist": false,
+            "allowPrint": true,
+            "activeSheetIndex": 0,
+            "listSeparator": ",",
+            "cssClass": "",
+            "height": "100%",
+            "width": "100%",
+            "allowScrolling": true,
+            "scrollSettings": {
+                "enableVirtualization": true,
+                "isFinite": false
+            },
+            "calculationMode": "Automatic",
+            "allowFreezePane": true,
+            "definedNames": [],
+            "isProtected": false,
+            "password": "",
+            "showCommentsPane": false,
+            "autoFillSettings": {
+                "showFillOptions": true
+            },
+            "showAggregate": true,
+            "sheets": [
+                {
+                    "name": "Car Sales Report",
+                    "rows": [
+                        {
+                            "cells": [
+                                {
+                                    "value": "Customer Name",
+                                    "style": {
+                                        "fontWeight": "bold",
+                                        "textAlign": "center",
+                                        "verticalAlign": "middle"
+                                    }
+                                },
+                                {
+                                    "value": "Model",
+                                    "style": {
+                                        "fontWeight": "bold",
+                                        "textAlign": "center",
+                                        "verticalAlign": "middle"
+                                    }
+                                },
+                                {
+                                    "value": "Color",
+                                    "style": {
+                                        "fontWeight": "bold",
+                                        "textAlign": "center",
+                                        "verticalAlign": "middle"
+                                    }
+                                },
+                                {
+                                    "value": "Payment Mode",
+                                    "style": {
+                                        "fontWeight": "bold",
+                                        "textAlign": "center",
+                                        "verticalAlign": "middle"
+                                    }
+                                },
+                                {
+                                    "value": "Delivery Date",
+                                    "style": {
+                                        "fontWeight": "bold",
+                                        "textAlign": "center",
+                                        "verticalAlign": "middle"
+                                    }
+                                },
+                                {
+                                    "value": "Amount",
+                                    "style": {
+                                        "fontWeight": "bold",
+                                        "textAlign": "center",
+                                        "verticalAlign": "middle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Romona Heaslip"
+                                },
+                                {
+                                    "value": "Taurus"
+                                },
+                                {
+                                    "value": "Aquamarine"
+                                },
+                                {
+                                    "value": "Debit Card"
+                                },
+                                {
+                                    "value": "42196",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "7/11/2015"
+                                },
+                                {
+                                    "value": "8529.22",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$8,529.22"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Clare Batterton"
+                                },
+                                {
+                                    "value": "Sparrow"
+                                },
+                                {
+                                    "value": "Pink"
+                                },
+                                {
+                                    "value": "Cash On Delivery"
+                                },
+                                {
+                                    "value": "42564",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "7/13/2016"
+                                },
+                                {
+                                    "value": "17866.19",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$17,866.19"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Eamon Traise"
+                                },
+                                {
+                                    "value": "Grand Cherokee"
+                                },
+                                {
+                                    "value": "Blue"
+                                },
+                                {
+                                    "value": "Net Banking"
+                                },
+                                {
+                                    "value": "42251",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "9/4/2015"
+                                },
+                                {
+                                    "value": "13853.09",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$13,853.09"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Julius Gorner"
+                                },
+                                {
+                                    "value": "GTO"
+                                },
+                                {
+                                    "value": "Aquamarine"
+                                },
+                                {
+                                    "value": "Credit Card"
+                                },
+                                {
+                                    "value": "43084",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "12/15/2017"
+                                },
+                                {
+                                    "value": "2338.74",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$2,338.74"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Jenna Schoolfield"
+                                },
+                                {
+                                    "value": "LX"
+                                },
+                                {
+                                    "value": "Yellow"
+                                },
+                                {
+                                    "value": "Credit Card"
+                                },
+                                {
+                                    "value": "41920",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "10/8/2014"
+                                },
+                                {
+                                    "value": "9578.45",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$9,578.45"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Marylynne Harring"
+                                },
+                                {
+                                    "value": "Catera"
+                                },
+                                {
+                                    "value": "Green"
+                                },
+                                {
+                                    "value": "Cash On Delivery"
+                                },
+                                {
+                                    "value": "42917",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "7/1/2017"
+                                },
+                                {
+                                    "value": "19141.62",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$19,141.62"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Vilhelmina Leipelt"
+                                },
+                                {
+                                    "value": "7 Series"
+                                },
+                                {
+                                    "value": "Goldenrod"
+                                },
+                                {
+                                    "value": "Credit Card"
+                                },
+                                {
+                                    "value": "42358",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "12/20/2015"
+                                },
+                                {
+                                    "value": "6543.30",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$6,543.30"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Barby Heisler"
+                                },
+                                {
+                                    "value": "Corvette"
+                                },
+                                {
+                                    "value": "Red"
+                                },
+                                {
+                                    "value": "Credit Card"
+                                },
+                                {
+                                    "value": "41967",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "11/24/2014"
+                                },
+                                {
+                                    "value": "13035.06",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$13,035.06"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Karyn Boik"
+                                },
+                                {
+                                    "value": "Regal"
+                                },
+                                {
+                                    "value": "Indigo"
+                                },
+                                {
+                                    "value": "Debit Card"
+                                },
+                                {
+                                    "value": "41771",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "5/12/2014"
+                                },
+                                {
+                                    "value": "18488.80",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$18,488.80"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Jeanette Pamplin"
+                                },
+                                {
+                                    "value": "S4"
+                                },
+                                {
+                                    "value": "Fuscia"
+                                },
+                                {
+                                    "value": "Net Banking"
+                                },
+                                {
+                                    "value": "42003",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "12/30/2014"
+                                },
+                                {
+                                    "value": "12317.04",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$12,317.04"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Cristi Espinos"
+                                },
+                                {
+                                    "value": "TL"
+                                },
+                                {
+                                    "value": "Aquamarine"
+                                },
+                                {
+                                    "value": "Credit Card"
+                                },
+                                {
+                                    "value": "41626",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "12/18/2013"
+                                },
+                                {
+                                    "value": "6230.13",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$6,230.13"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Issy Humm"
+                                },
+                                {
+                                    "value": "Club Wagon"
+                                },
+                                {
+                                    "value": "Pink"
+                                },
+                                {
+                                    "value": "Cash On Delivery"
+                                },
+                                {
+                                    "value": "42037",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "2/2/2015"
+                                },
+                                {
+                                    "value": "9709.49",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$9,709.49"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Tuesday Fautly"
+                                },
+                                {
+                                    "value": "V8 Vantage"
+                                },
+                                {
+                                    "value": "Crimson"
+                                },
+                                {
+                                    "value": "Debit Card"
+                                },
+                                {
+                                    "value": "41962",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "11/19/2014"
+                                },
+                                {
+                                    "value": "9766.10",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$9,766.10"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Rosemaria Thomann"
+                                },
+                                {
+                                    "value": "Caravan"
+                                },
+                                {
+                                    "value": "Violet"
+                                },
+                                {
+                                    "value": "Net Banking"
+                                },
+                                {
+                                    "value": "41678",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "2/8/2014"
+                                },
+                                {
+                                    "value": "7685.49",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$7,685.49"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Lyell Fuentez"
+                                },
+                                {
+                                    "value": "Bravada"
+                                },
+                                {
+                                    "value": "Violet"
+                                },
+                                {
+                                    "value": "Debit Card"
+                                },
+                                {
+                                    "value": "42587",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "8/5/2016"
+                                },
+                                {
+                                    "value": "18012.45",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$18,012.45"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Raynell Layne"
+                                },
+                                {
+                                    "value": "Colorado"
+                                },
+                                {
+                                    "value": "Pink"
+                                },
+                                {
+                                    "value": "Credit Card"
+                                },
+                                {
+                                    "value": "42520",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "5/30/2016"
+                                },
+                                {
+                                    "value": "2785.49",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$2,785.49"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Raye Whines"
+                                },
+                                {
+                                    "value": "4Runner"
+                                },
+                                {
+                                    "value": "Red"
+                                },
+                                {
+                                    "value": "Debit Card"
+                                },
+                                {
+                                    "value": "42714",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "12/10/2016"
+                                },
+                                {
+                                    "value": "9967.74",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$9,967.74"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Virgina Aharoni"
+                                },
+                                {
+                                    "value": "TSX"
+                                },
+                                {
+                                    "value": "Pink"
+                                },
+                                {
+                                    "value": "Cash On Delivery"
+                                },
+                                {
+                                    "value": "41935",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "10/23/2014"
+                                },
+                                {
+                                    "value": "5584.33",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$5,584.33"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Peta Cheshir"
+                                },
+                                {
+                                    "value": "Pathfinder"
+                                },
+                                {
+                                    "value": "Red"
+                                },
+                                {
+                                    "value": "Net Banking"
+                                },
+                                {
+                                    "value": "42362",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "12/24/2015"
+                                },
+                                {
+                                    "value": "5286.53",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$5,286.53"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Jule Urion"
+                                },
+                                {
+                                    "value": "Charger"
+                                },
+                                {
+                                    "value": "Violet"
+                                },
+                                {
+                                    "value": "Debit Card"
+                                },
+                                {
+                                    "value": "41598",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "11/20/2013"
+                                },
+                                {
+                                    "value": "13511.91",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$13,511.91"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Lew Gilyatt"
+                                },
+                                {
+                                    "value": "Bonneville"
+                                },
+                                {
+                                    "value": "Crimson"
+                                },
+                                {
+                                    "value": "Credit Card"
+                                },
+                                {
+                                    "value": "41597",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "11/19/2013"
+                                },
+                                {
+                                    "value": "6498.19",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$6,498.19"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Jobey Fortun"
+                                },
+                                {
+                                    "value": "B-Series"
+                                },
+                                {
+                                    "value": "Blue"
+                                },
+                                {
+                                    "value": "Net Banking"
+                                },
+                                {
+                                    "value": "41942",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "10/30/2014"
+                                },
+                                {
+                                    "value": "10359.67",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$10,359.67"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Blondie Crump"
+                                },
+                                {
+                                    "value": "Voyager"
+                                },
+                                {
+                                    "value": "Turquoise"
+                                },
+                                {
+                                    "value": "Credit Card"
+                                },
+                                {
+                                    "value": "43196",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "4/6/2018"
+                                },
+                                {
+                                    "value": "8118.39",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$8,118.39"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Florentia Binns"
+                                },
+                                {
+                                    "value": "Grand Prix"
+                                },
+                                {
+                                    "value": "Orange"
+                                },
+                                {
+                                    "value": "Cash On Delivery"
+                                },
+                                {
+                                    "value": "42656",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "10/13/2016"
+                                },
+                                {
+                                    "value": "10204.37",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$10,204.37"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Jaquelin Galtone"
+                                },
+                                {
+                                    "value": "Sunbird"
+                                },
+                                {
+                                    "value": "Red"
+                                },
+                                {
+                                    "value": "Net Banking"
+                                },
+                                {
+                                    "value": "41569",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "10/22/2013"
+                                },
+                                {
+                                    "value": "6528.06",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$6,528.06"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Hakeem Easseby"
+                                },
+                                {
+                                    "value": "Mirage"
+                                },
+                                {
+                                    "value": "Crimson"
+                                },
+                                {
+                                    "value": "Debit Card"
+                                },
+                                {
+                                    "value": "41894",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "9/12/2014"
+                                },
+                                {
+                                    "value": "5619.25",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$5,619.25"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Nickolaus Gidman"
+                                },
+                                {
+                                    "value": "XK"
+                                },
+                                {
+                                    "value": "Orange"
+                                },
+                                {
+                                    "value": "Debit Card"
+                                },
+                                {
+                                    "value": "42502",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "5/12/2016"
+                                },
+                                {
+                                    "value": "5091.43",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$5,091.43"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Jenine Iglesia"
+                                },
+                                {
+                                    "value": "Accord"
+                                },
+                                {
+                                    "value": "Orange"
+                                },
+                                {
+                                    "value": "Debit Card"
+                                },
+                                {
+                                    "value": "43346",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "9/3/2018"
+                                },
+                                {
+                                    "value": "14566.08",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$14,566.08"
+                                }
+                            ]
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "value": "Fax Witherspoon"
+                                },
+                                {
+                                    "value": "Range Rover Sport"
+                                },
+                                {
+                                    "value": "Orange"
+                                },
+                                {
+                                    "value": "Credit Card"
+                                },
+                                {
+                                    "value": "43153",
+                                    "format": "m/d/yyyy",
+                                    "formattedText": "2/22/2018"
+                                },
+                                {
+                                    "value": "5284.87",
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$5,284.87"
+                                }
+                            ]
+                        },
+                        {
+                            "viewContainer": {},
+                            "cells": [
+                                null,
+                                null,
+                                null,
+                                null,
+                                {
+                                    "value": "Total Amount:",
+                                    "viewContainer": {},
+                                    "style": {
+                                        "fontWeight": "bold",
+                                        "textAlign": "right"
+                                    }
+                                },
+                                {
+                                    "formula": "=SUM(F2:F30)",
+                                    "viewContainer": {},
+                                    "value": "282501.48",
+                                    "style": {
+                                        "fontWeight": "bold"
+                                    },
+                                    "format": "$#,##0.00",
+                                    "formattedText": "$282,501.48"
+                                }
+                            ]
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "width": 180,
+                            "viewContainer": {}
+                        },
+                        {
+                            "width": 130,
+                            "viewContainer": {}
+                        },
+                        {
+                            "width": 130,
+                            "viewContainer": {}
+                        },
+                        {
+                            "width": 180,
+                            "viewContainer": {}
+                        },
+                        {
+                            "width": 130,
+                            "viewContainer": {}
+                        },
+                        {
+                            "width": 120,
+                            "viewContainer": {}
+                        }
+                    ],
+                    "ranges": [
+                        {}
+                    ],
+                    "rowCount": 100,
+                    "colCount": 100,
+                    "topLeftCell": "A1",
+                    "activeCell": "A1",
+                    "selectedRange": "A1:A1",
+                    "usedRange": {
+                        "rowIndex": 30,
+                        "colIndex": 5
+                    },
+                    "showHeaders": true,
+                    "showGridLines": true,
+                    "state": "Visible",
+                    "isProtected": false,
+                    "protectSettings": {},
+                    "paneTopLeftCell": "A1",
+                    "frozenRows": 0,
+                    "frozenColumns": 0,
+                    "index": 0,
+                    "id": 1
+                }
+            ],
+            "filterCollection": []
+        }
+    }
+}
