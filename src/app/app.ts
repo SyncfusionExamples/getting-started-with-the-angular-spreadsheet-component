@@ -1,54 +1,90 @@
-import { Component, ViewContainerRef, ComponentRef, ViewChild } from '@angular/core';
+import {
+    Component,
+    ViewChild,
+    ViewContainerRef,
+    ComponentRef,
+    AfterViewInit
+} from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SpreadsheetAllModule, SpreadsheetComponent } from '@syncfusion/ej2-angular-spreadsheet';
+import {
+    SpreadsheetAllModule,
+    SpreadsheetComponent
+} from '@syncfusion/ej2-angular-spreadsheet';
+
 import spreadsheetData from '../spreadsheetData.json';
 
 @Component({
-    imports: [CommonModule, SpreadsheetAllModule],
-    standalone: true,
     selector: 'app-root',
+    standalone: true,
+    imports: [CommonModule, SpreadsheetAllModule],
     template: `
-        <div>
-            <button (click)="createSpreadsheet()">Create Spreadsheet</button>
-            <button (click)="destroySpreadsheet()">Destroy Spreadsheet</button>
-            <div #spreadsheetContainer></div>
-        </div>
-    `,
-    styles: [`
-        div { padding: 20px; }
-        button { 
-            padding: 10px 20px; 
-            margin-right: 10px; 
-            cursor: pointer;
-            background-color: #2196F3;
-            color: white;
-            border: none;
-            border-radius: 4px;
-        }
-        button:hover { background-color: #1976D2; }
-    `]
+    <button (click)="createSpreadsheet()">Create Spreadsheet</button>
+    <button (click)="openWorkbook()">Open From JSON</button>
+    <button (click)="destroySpreadsheet()">Destroy Spreadsheet</button>
+
+    <div style="margin-top:10px">
+      <ng-container #container></ng-container>
+    </div>
+  `
 })
-export class App {
-    @ViewChild('spreadsheetContainer', { read: ViewContainerRef }) container!: ViewContainerRef;
-    private componentRef: ComponentRef<SpreadsheetComponent> | null = null;
+export class App implements AfterViewInit {
 
-    constructor(private viewContainer: ViewContainerRef) {}
+    @ViewChild('container', { read: ViewContainerRef, static: true })
+    public container!: ViewContainerRef;
 
-    createSpreadsheet() {
-        if (this.componentRef) {
+    private spreadsheetRef!: ComponentRef<SpreadsheetComponent>;
+
+    ngAfterViewInit(): void {
+        // initial creation if needed
+    }
+
+    public createSpreadsheet(): void {
+        if (this.spreadsheetRef) {
+            console.log('Spreadsheet already exists');
             return;
         }
 
-        this.componentRef = this.viewContainer.createComponent(SpreadsheetComponent);
-        const instance = this.componentRef.instance;
-        
-        instance.openFromJson(spreadsheetData);
+        console.log('Creating Spreadsheet');
+
+        this.spreadsheetRef =
+            this.container.createComponent(SpreadsheetComponent);
     }
 
-    destroySpreadsheet() {
-        if (this.componentRef) {
-            this.componentRef.destroy();
-            this.componentRef = null;
+    public openWorkbook(): void {
+        if (!this.spreadsheetRef) {
+            console.log('Create Spreadsheet first');
+            return;
+        }
+
+        console.log('Loading workbook');
+
+        setTimeout(() => {
+            this.spreadsheetRef.instance.openFromJson({
+                file: spreadsheetData.jsonObject
+            });
+        }, 500);
+    }
+
+    public destroySpreadsheet(): void {
+        if (!this.spreadsheetRef) {
+            return;
+        }
+
+        console.log('Destroying Spreadsheet');
+
+        this.spreadsheetRef.instance.destroy();
+
+        this.spreadsheetRef.destroy();
+
+        this.container.clear();
+
+        // remove reference
+        (this.spreadsheetRef as any) = null;
+
+        // optional memory check point
+        if ((window as any).gc) {
+            console.log('Triggering GC');
+            (window as any).gc();
         }
     }
 }
